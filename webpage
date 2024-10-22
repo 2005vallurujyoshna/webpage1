@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpage Clone</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        section {
+            padding: 80px;
+            margin: 10px auto;
+            width: 40%;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            align-items: center;
+        }
+
+        img {
+            margin-right: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            align-items: center;
+        }
+
+        form input[type="text"], 
+        form input[type="password"] {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            align-items: center;
+        }
+
+        form input[type="submit"] {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-items: center;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #555;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Webpage Clone</h1>
+    </header>
+
+    <!-- Image Section -->
+    <section>
+        <h2>Image Section</h2>
+        <!-- Image from Local Storage -->
+        <img src="https://wallpaperaccess.com/full/4723250.jpg" alt="Local Image" width="400">
+        
+    </section>
+
+    <!-- Video Section -->
+    <section>
+        <h2>Video Section</h2>
+        <!-- Video from CDN -->
+        <video width="400" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+        <h2>Form Section</h2>
+        <form>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter Username"><br><br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter Password"><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- HTML Entries Section -->
+    <section>
+        <h2>HTML Entries</h2>
+        <p>This is entry 1: HTML paragraph element.</p>
+        <p>This is entry 2: Another paragraph element.</p>
+        <h3>This is entry 3: HTML Heading 3 element.</h3>
+        <h4>This is entry 4: HTML Heading 4 element.</h4>
+        <p>This is entry 5: Yet another HTML paragraph.</p>
+    </section>
+</body>
+</html>
